@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Description>Yoga bindings for dotnet</Description>
+		<PackageProjectUrl>https://github.com/tonisimakov99/FreeTypeBinding</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/tonisimakov99/FreeTypeBinding</RepositoryUrl>
+		<PackageReleaseNotes>rel</PackageReleaseNotes>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageTags>Yoga;Bindings</PackageTags>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+</Project>
