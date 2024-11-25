@@ -1,0 +1,77 @@
+namespace YogaBinding
+{
+    internal unsafe interface IYGStyleApi
+    {
+        void YGNodeCopyStyle(YGNode* dstNode, YGNode* srcNode);
+        void YGNodeStyleSetDirection(YGNode* node, YGDirection direction);
+        YGDirection YGNodeStyleGetDirection(YGNode* node);
+        void YGNodeStyleSetFlexDirection(YGNode* node, YGFlexDirection flexDirection);
+        YGFlexDirection YGNodeStyleGetFlexDirection(YGNode* node);
+        void YGNodeStyleSetJustifyContent(YGNode* node, YGJustify justifyContent);
+        YGJustify YGNodeStyleGetJustifyContent(YGNode* node);
+        void YGNodeStyleSetAlignContent(YGNode* node, YGAlign alignContent);
+        YGAlign YGNodeStyleGetAlignContent(YGNode* node);
+        void YGNodeStyleSetAlignItems(YGNode* node, YGAlign alignItems);
+        YGAlign YGNodeStyleGetAlignItems(YGNode* node);
+        void YGNodeStyleSetAlignSelf(YGNode* node, YGAlign alignSelf);
+        YGAlign YGNodeStyleGetAlignSelf(YGNode* node);
+        void YGNodeStyleSetPositionType(YGNode* node, YGPositionType positionType);
+        YGPositionType YGNodeStyleGetPositionType(YGNode* node);
+        void YGNodeStyleSetFlexWrap(YGNode* node, YGWrap flexWrap);
+        YGWrap YGNodeStyleGetFlexWrap(YGNode* node);
+        void YGNodeStyleSetOverflow(YGNode* node, YGOverflow overflow);
+        YGOverflow YGNodeStyleGetOverflow(YGNode* node);
+        void YGNodeStyleSetDisplay(YGNode* node, YGDisplay display);
+        YGDisplay YGNodeStyleGetDisplay(YGNode* node);
+        void YGNodeStyleSetFlex(YGNode* node, float flex);
+        float YGNodeStyleGetFlex(YGNode* node);
+        void YGNodeStyleSetFlexGrow(YGNode* node, float flexGrow);
+        float YGNodeStyleGetFlexGrow(YGNode* node);
+        void YGNodeStyleSetFlexShrink(YGNode* node, float flexShrink);
+        float YGNodeStyleGetFlexShrink(YGNode* node);
+        void YGNodeStyleSetFlexBasis(YGNode* node, float flexBasis);
+        void YGNodeStyleSetFlexBasisPercent(YGNode* node, float flexBasis);
+        void YGNodeStyleSetFlexBasisAuto(YGNode* node);
+        YGValue YGNodeStyleGetFlexBasis(YGNode* node);
+        void YGNodeStyleSetPosition(YGNode* node, YGEdge edge, float position);
+        void YGNodeStyleSetPositionPercent(YGNode* node, YGEdge edge, float position);
+        YGValue YGNodeStyleGetPosition(YGNode* node, YGEdge edge);
+        void YGNodeStyleSetPositionAuto(YGNode* node, YGEdge edge);
+        void YGNodeStyleSetMargin(YGNode* node, YGEdge edge, float margin);
+        void YGNodeStyleSetMarginPercent(YGNode* node, YGEdge edge, float margin);
+        void YGNodeStyleSetMarginAuto(YGNode* node, YGEdge edge);
+        YGValue YGNodeStyleGetMargin(YGNode* node, YGEdge edge);
+        void YGNodeStyleSetPadding(YGNode* node, YGEdge edge, float padding);
+        void YGNodeStyleSetPaddingPercent(YGNode* node, YGEdge edge, float padding);
+        YGValue YGNodeStyleGetPadding(YGNode* node, YGEdge edge);
+        void YGNodeStyleSetBorder(YGNode* node, YGEdge edge, float border);
+        float YGNodeStyleGetBorder(YGNode* node, YGEdge edge);
+        void YGNodeStyleSetGap(YGNode* node, YGGutter gutter, float gapLength);
+        void YGNodeStyleSetGapPercent(YGNode* node, YGGutter gutter, float gapLength);
+        float YGNodeStyleGetGap(YGNode* node, YGGutter gutter);
+        void YGNodeStyleSetBoxSizing(YGNode* node, YGBoxSizing boxSizing);
+        YGBoxSizing YGNodeStyleGetBoxSizing(YGNode* node);
+        void YGNodeStyleSetWidth(YGNode* node, float width);
+        void YGNodeStyleSetWidthPercent(YGNode* node, float width);
+        void YGNodeStyleSetWidthAuto(YGNode* node);
+        YGValue YGNodeStyleGetWidth(YGNode* node);
+        void YGNodeStyleSetHeight(YGNode* node, float height);
+        void YGNodeStyleSetHeightPercent(YGNode* node, float height);
+        void YGNodeStyleSetHeightAuto(YGNode* node);
+        YGValue YGNodeStyleGetHeight(YGNode* node);
+        void YGNodeStyleSetMinWidth(YGNode* node, float minWidth);
+        void YGNodeStyleSetMinWidthPercent(YGNode* node, float minWidth);
+        YGValue YGNodeStyleGetMinWidth(YGNode* node);
+        void YGNodeStyleSetMinHeight(YGNode* node, float minHeight);
+        void YGNodeStyleSetMinHeightPercent(YGNode* node, float minHeight);
+        YGValue YGNodeStyleGetMinHeight(YGNode* node);
+        void YGNodeStyleSetMaxWidth(YGNode* node, float maxWidth);
+        void YGNodeStyleSetMaxWidthPercent(YGNode* node, float maxWidth);
+        YGValue YGNodeStyleGetMaxWidth(YGNode* node);
+        void YGNodeStyleSetMaxHeight(YGNode* node, float maxHeight);
+        void YGNodeStyleSetMaxHeightPercent(YGNode* node, float maxHeight);
+        YGValue YGNodeStyleGetMaxHeight(YGNode* node);
+        void YGNodeStyleSetAspectRatio(YGNode* node, float aspectRatio);
+        float YGNodeStyleGetAspectRatio(YGNode* node);
+    }
+}

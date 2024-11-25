@@ -17,10 +17,10 @@ namespace YogaBinding.Generator
 
 
             BindingGenerator.Generator.Generate(
-                new[] { "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding.Generator\\yoga\\", "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding.Generator" },
+                new[] { "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding.Generator\\yoga\\", "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding.Generator" },
                 new[] {
                     new LibData() {
-                    FuncsHeaderPath = "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding.Generator\\yoga\\YGConfig.h",
+                    FuncsHeaderPath = "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding.Generator\\yoga\\YGConfig.h",
                     RuntimeData = new RuntimeData()
                     {
                         PerPlatformPathes = new Dictionary<Platform, string>()
@@ -33,7 +33,7 @@ namespace YogaBinding.Generator
                     LibName="YGConfigApi"
                     },
                     new LibData() {
-                    FuncsHeaderPath = "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding.Generator\\yoga\\YGNode.h",
+                    FuncsHeaderPath = "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding.Generator\\yoga\\YGNode.h",
                     RuntimeData = new RuntimeData()
                     {
                         PerPlatformPathes = new Dictionary<Platform, string>()
@@ -46,7 +46,7 @@ namespace YogaBinding.Generator
                     LibName="YGNodeApi"
                     },
                     new LibData() {
-                    FuncsHeaderPath = "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding.Generator\\yoga\\YGNodeLayout.h",
+                    FuncsHeaderPath = "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding.Generator\\yoga\\YGNodeLayout.h",
                     RuntimeData = new RuntimeData()
                     {
                         PerPlatformPathes = new Dictionary<Platform, string>()
@@ -59,7 +59,7 @@ namespace YogaBinding.Generator
                     LibName="YGNodeLayoutApi"
                     },
                     new LibData() {
-                    FuncsHeaderPath = "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding.Generator\\yoga\\YGNodeStyle.h",
+                    FuncsHeaderPath = "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding.Generator\\yoga\\YGNodeStyle.h",
                     RuntimeData = new RuntimeData()
                     {
                         PerPlatformPathes = new Dictionary<Platform, string>()
@@ -72,7 +72,7 @@ namespace YogaBinding.Generator
                     LibName="YGStyleApi"
                     },
                     new LibData() {
-                    FuncsHeaderPath = "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding.Generator\\yoga\\YGPixelGrid.h",
+                    FuncsHeaderPath = "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding.Generator\\yoga\\YGPixelGrid.h",
                     RuntimeData = new RuntimeData()
                     {
                         PerPlatformPathes = new Dictionary<Platform, string>()
@@ -85,7 +85,7 @@ namespace YogaBinding.Generator
                     LibName="YGPixelGridApi"
                     }
                 },
-                "C:\\Users\\Anton\\source\\repos\\YogaBinding\\YogaBinding",
+                "C:\\Users\\Anton\\Desktop\\YogaBinding\\YogaBinding\\YogaBinding",
                 "YogaBinding",
                // anonymousEnumPrefixes: new List<string>() { "FT_Err" },
                //typedefStrategies: new Dictionary<string, TypedefStrategy>()
